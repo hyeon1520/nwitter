@@ -1,12 +1,15 @@
-import firebase from "firebase/app";
+import firebase from "firebase/compat/app";
+import "firebase/compat/auth";
+import "firebase/compat/firestore";
+import "firebase/compat/storage";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBQLdwYM_vJv50KYCvbYXQdNOT945pBaX0",
-    authDomain: "nwitter-32c65.firebaseapp.com",
-    projectId: "nwitter-32c65",
-    storageBucket: "nwitter-32c65.appspot.com",
-    messagingSenderId: "127689823933",
-    appId: "1:127689823933:web:6d7b26e576e406bf5f09d4"
+    apiKey: "AIzaSyCBAIOxa74PRGe90U7pAcCyTCREFsRxrLY",
+    authDomain: "nwitter-b9bf9.firebaseapp.com",
+    projectId: "nwitter-b9bf9",
+    storageBucket: "nwitter-b9bf9.appspot.com",
+    messagingSenderId: "997022951137",
+    appId: "1:997022951137:web:763bf8cf289252817a79a0"
   };
 
-  export default firebaseConfig.initializeApp(firebaseConfig);
+  export default firebase.initializeApp(firebaseConfig);
