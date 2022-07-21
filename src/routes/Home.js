@@ -1,4 +1,5 @@
 import { dbService } from "fbase";
+
 import { useEffect ,useState } from "react";
 
 const Home = () => {
@@ -39,6 +40,7 @@ const Home = () => {
         setNweet(value);
     };
 
+    //twit 기능 구현하기
     return (
         <>
             <form onSubmit={onSubmit}>
